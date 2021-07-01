@@ -1,0 +1,75 @@
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "2o2-qq-1a9"; */
+"2o2-qq-1a9.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "3cp-4I-ndm"; */
+"3cp-4I-ndm.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Quick delivery at your doorstep"; ObjectID = "42h-Cf-FQh"; */
+"42h-Cf-FQh.text" = "Quick delivery at your doorstep";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "CYh-23-ZSs"; */
+"CYh-23-ZSs.placeholder" = "Name";
+
+/* Class = "UIButton"; normalTitle = "Create Account"; ObjectID = "Eka-2x-khF"; */
+"Eka-2x-khF.normalTitle" = "Create Account";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "IOD-Od-CfJ"; */
+"IOD-Od-CfJ.placeholder" = "Phone";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "L2p-Ux-kA7"; */
+"L2p-Ux-kA7.title" = "Home";
+
+/* Class = "UILabel"; text = "My Profile"; ObjectID = "LRt-jF-C4P"; */
+"LRt-jF-C4P.text" = "My Profile";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "Vm0-sm-28u"; */
+"Vm0-sm-28u.normalTitle" = "Log In";
+
+/* Class = "UIButton"; normalTitle = "  Facebook"; ObjectID = "Z6n-FJ-EIe"; */
+"Z6n-FJ-EIe.normalTitle" = "  Facebook";
+
+/* Class = "UITabBarItem"; title = "Location"; ObjectID = "biW-SX-EG3"; */
+"biW-SX-EG3.title" = "Location";
+
+/* Class = "UILabel"; text = "Provider"; ObjectID = "edN-0X-A1u"; */
+"edN-0X-A1u.text" = "Provider";
+
+/* Class = "UIButton"; normalTitle = "   Log Out"; ObjectID = "fRm-Q1-rDC"; */
+"fRm-Q1-rDC.normalTitle" = "   Log Out";
+
+/* Class = "UISearchBar"; placeholder = "Another address?"; ObjectID = "g1T-DN-aSJ"; */
+"g1T-DN-aSJ.placeholder" = "Another address?";
+
+/* Class = "UISearchBar"; g1T-DN-aSJ.scopeButtonTitles[0] = "Title"; ObjectID = "g1T-DN-aSJ"; */
+"g1T-DN-aSJ.scopeButtonTitles[0]" = "Title";
+
+/* Class = "UISearchBar"; g1T-DN-aSJ.scopeButtonTitles[1] = "Title"; ObjectID = "g1T-DN-aSJ"; */
+"g1T-DN-aSJ.scopeButtonTitles[1]" = "Title";
+
+/* Class = "UITabBarItem"; title = "Cart"; ObjectID = "h2w-s0-b9u"; */
+"h2w-s0-b9u.title" = "Cart";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "itc-dm-CVZ"; */
+"itc-dm-CVZ.placeholder" = "Last Name";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "kWn-PG-HHD"; */
+"kWn-PG-HHD.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Home delivery and Online reservation system for restaurants and cafes."; ObjectID = "lLa-8A-5i7"; */
+"lLa-8A-5i7.text" = "Home delivery and Online reservation system for restaurants and cafes.";
+
+/* Class = "UIButton"; normalTitle = "Save My Information"; ObjectID = "mLp-qd-xi4"; */
+"mLp-qd-xi4.normalTitle" = "Save My Information";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "qW6-8N-RRg"; */
+"qW6-8N-RRg.title" = "Profile";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "sUz-uD-E4m"; */
+"sUz-uD-E4m.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "  Google"; ObjectID = "vUd-24-y75"; */
+"vUd-24-y75.normalTitle" = "  Google";
+
+/* Class = "UILabel"; text = "- or -"; ObjectID = "yGx-pm-owx"; */
+"yGx-pm-owx.text" = "- or -";

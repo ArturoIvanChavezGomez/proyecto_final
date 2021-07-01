@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '13.0'
+
+target 'PizzApp' do
+  use_frameworks!
+
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
+  pod 'FacebookLogin'
+  pod 'Firebase/Firestore'
+  pod 'IQKeyboardManagerSwift'
+  pod 'GoogleMaps', '5.0.0'
+  pod 'Kingfisher'
+
+end

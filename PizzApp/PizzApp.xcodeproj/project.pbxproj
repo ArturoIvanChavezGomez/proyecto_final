@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2907638AAF383BB5B916D4FA /* Pods_PizzApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EE21AF570C5E979090D20F /* Pods_PizzApp.framework */; };
+		6E1AF907268AD9C600CC3E4D /* SpecialsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1AF905268AD9C600CC3E4D /* SpecialsCollectionViewCell.swift */; };
+		6E1AF908268AD9C600CC3E4D /* SpecialsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E1AF906268AD9C600CC3E4D /* SpecialsCollectionViewCell.xib */; };
+		6E1AF90C268ADA0A00CC3E4D /* SpecialPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1AF90B268ADA0900CC3E4D /* SpecialPizza.swift */; };
+		6E1AF911268AE3B800CC3E4D /* AllCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1AF90F268AE3B800CC3E4D /* AllCollectionViewCell.swift */; };
+		6E1AF912268AE3B800CC3E4D /* AllCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E1AF910268AE3B800CC3E4D /* AllCollectionViewCell.xib */; };
+		6E1AF915268AE47F00CC3E4D /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1AF914268AE47F00CC3E4D /* Pizza.swift */; };
+		6E2718CA268A818B003B893D /* PopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2718C8268A818B003B893D /* PopularCollectionViewCell.swift */; };
+		6E2718CB268A818B003B893D /* PopularCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E2718C9268A818B003B893D /* PopularCollectionViewCell.xib */; };
+		6E2718CE268A957D003B893D /* PopularPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2718CD268A957D003B893D /* PopularPizza.swift */; };
+		6E2718F1268A9793003B893D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2718F0268A9793003B893D /* String+Extension.swift */; };
+		6E2718F6268AAC98003B893D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2718F5268AAC98003B893D /* CardView.swift */; };
+		6E46AE9B2684298E00C55408 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E46AE9A2684298E00C55408 /* GoogleService-Info.plist */; };
+		6E46AEAC268436BE00C55408 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46AEAB268436BE00C55408 /* ProfileViewController.swift */; };
+		6E47E51D26859E5900094A54 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E47E51C26859E5900094A54 /* HomeViewController.swift */; };
+		6E47E52026859E6B00094A54 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E47E51F26859E6B00094A54 /* CartViewController.swift */; };
+		6E47E52326859E7A00094A54 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E47E52226859E7A00094A54 /* LocationViewController.swift */; };
+		6EB64A16268BCD2B007F3847 /* PizzaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB64A15268BCD2B007F3847 /* PizzaDetailViewController.swift */; };
+		6EB64A19268BCE87007F3847 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB64A18268BCE87007F3847 /* UIViewController+Extension.swift */; };
+		6ED4DB23268655F7004C2F1D /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED4DB22268655F7004C2F1D /* OnboardingSlide.swift */; };
+		6ED4DB2626865D9E004C2F1D /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED4DB2526865D9E004C2F1D /* OnboardingCollectionViewCell.swift */; };
+		6EE0CA8126841F48009FA77F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0CA8026841F48009FA77F /* AppDelegate.swift */; };
+		6EE0CA8326841F48009FA77F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0CA8226841F48009FA77F /* SceneDelegate.swift */; };
+		6EE0CA8526841F48009FA77F /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0CA8426841F48009FA77F /* AuthViewController.swift */; };
+		6EE0CA8826841F48009FA77F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE0CA8626841F48009FA77F /* Main.storyboard */; };
+		6EE0CA8A26841F4A009FA77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE0CA8926841F4A009FA77F /* Assets.xcassets */; };
+		6EE0CA8D26841F4A009FA77F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE0CA8B26841F4A009FA77F /* LaunchScreen.storyboard */; };
+		6EE19D4B268D0A33009374E2 /* OrdersListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE19D49268D0A33009374E2 /* OrdersListTableViewCell.swift */; };
+		6EE19D4C268D0A33009374E2 /* OrdersListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EE19D4A268D0A33009374E2 /* OrdersListTableViewCell.xib */; };
+		6EE19D50268D12FA009374E2 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE19D4F268D12FA009374E2 /* Order.swift */; };
+		6EF0183F2685C49500140185 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0183E2685C49500140185 /* OnboardingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16EE21AF570C5E979090D20F /* Pods_PizzApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PizzApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		442C78CCEBB3D6964BFEB491 /* Pods-PizzApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzApp.release.xcconfig"; path = "Target Support Files/Pods-PizzApp/Pods-PizzApp.release.xcconfig"; sourceTree = "<group>"; };
+		6E1AF905268AD9C600CC3E4D /* SpecialsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialsCollectionViewCell.swift; sourceTree = "<group>"; };
+		6E1AF906268AD9C600CC3E4D /* SpecialsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpecialsCollectionViewCell.xib; sourceTree = "<group>"; };
+		6E1AF90B268ADA0900CC3E4D /* SpecialPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialPizza.swift; sourceTree = "<group>"; };
+		6E1AF90F268AE3B800CC3E4D /* AllCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCollectionViewCell.swift; sourceTree = "<group>"; };
+		6E1AF910268AE3B800CC3E4D /* AllCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllCollectionViewCell.xib; sourceTree = "<group>"; };
+		6E1AF914268AE47F00CC3E4D /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		6E2718C8268A818B003B893D /* PopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCollectionViewCell.swift; sourceTree = "<group>"; };
+		6E2718C9268A818B003B893D /* PopularCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularCollectionViewCell.xib; sourceTree = "<group>"; };
+		6E2718CD268A957D003B893D /* PopularPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularPizza.swift; sourceTree = "<group>"; };
+		6E2718F0268A9793003B893D /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		6E2718F5268AAC98003B893D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6E46AE9A2684298E00C55408 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E46AEAB268436BE00C55408 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6E47E51C26859E5900094A54 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6E47E51F26859E6B00094A54 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		6E47E52226859E7A00094A54 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		6EB64A15268BCD2B007F3847 /* PizzaDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaDetailViewController.swift; sourceTree = "<group>"; };
+		6EB64A18268BCE87007F3847 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		6ED4DB22268655F7004C2F1D /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		6ED4DB2526865D9E004C2F1D /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		6EE0CA7D26841F48009FA77F /* PizzApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE0CA8026841F48009FA77F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EE0CA8226841F48009FA77F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6EE0CA8426841F48009FA77F /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		6EE0CA8726841F48009FA77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EE0CA8926841F4A009FA77F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EE0CA8C26841F4A009FA77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EE0CA8E26841F4A009FA77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE19D49268D0A33009374E2 /* OrdersListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersListTableViewCell.swift; sourceTree = "<group>"; };
+		6EE19D4A268D0A33009374E2 /* OrdersListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrdersListTableViewCell.xib; sourceTree = "<group>"; };
+		6EE19D4F268D12FA009374E2 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		6EF0183E2685C49500140185 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		D50236201FF86DFFF3BAF7B2 /* Pods-PizzApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzApp.debug.xcconfig"; path = "Target Support Files/Pods-PizzApp/Pods-PizzApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EE0CA7A26841F48009FA77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2907638AAF383BB5B916D4FA /* Pods_PizzApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3317A0A078A3F2BE2A3F3B3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16EE21AF570C5E979090D20F /* Pods_PizzApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E1AF904268AD99800CC3E4D /* SpecialsCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6E1AF905268AD9C600CC3E4D /* SpecialsCollectionViewCell.swift */,
+				6E1AF906268AD9C600CC3E4D /* SpecialsCollectionViewCell.xib */,
+			);
+			path = SpecialsCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		6E1AF90E268AE39C00CC3E4D /* AllCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6E1AF90F268AE3B800CC3E4D /* AllCollectionViewCell.swift */,
+				6E1AF910268AE3B800CC3E4D /* AllCollectionViewCell.xib */,
+			);
+			path = AllCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		6E2718BB268A79CC003B893D /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				6EE19D47268D09C7009374E2 /* TableViewCell */,
+				6E2718F4268AAC83003B893D /* CardView */,
+				6E2718BC268A79DB003B893D /* CollectionViewCells */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		6E2718BC268A79DB003B893D /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				6E1AF90E268AE39C00CC3E4D /* AllCollectionViewCell */,
+				6E1AF904268AD99800CC3E4D /* SpecialsCollectionViewCell */,
+				6E2718C7268A8166003B893D /* PopularCollectionViewCell */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		6E2718C7268A8166003B893D /* PopularCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6E2718C8268A818B003B893D /* PopularCollectionViewCell.swift */,
+				6E2718C9268A818B003B893D /* PopularCollectionViewCell.xib */,
+			);
+			path = PopularCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		6E2718EF268A9775003B893D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6E2718F0268A9793003B893D /* String+Extension.swift */,
+				6EB64A18268BCE87007F3847 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6E2718F4268AAC83003B893D /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				6E2718F5268AAC98003B893D /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		6EE0CA7426841F48009FA77F = {
+			isa = PBXGroup;
+			children = (
+				6EE0CA7F26841F48009FA77F /* PizzApp */,
+				6EE0CA7E26841F48009FA77F /* Products */,
+				9F1DC46DB2CA44C70F88BA13 /* Pods */,
+				3317A0A078A3F2BE2A3F3B3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6EE0CA7E26841F48009FA77F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0CA7D26841F48009FA77F /* PizzApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EE0CA7F26841F48009FA77F /* PizzApp */ = {
+			isa = PBXGroup;
+			children = (
+				6E2718EF268A9775003B893D /* Extensions */,
+				6E2718BB268A79CC003B893D /* CustomViews */,
+				6EF0183C2685C41800140185 /* Views */,
+				6EF0183B2685C41100140185 /* Models */,
+				6EE0CA8426841F48009FA77F /* AuthViewController.swift */,
+				6E47E51C26859E5900094A54 /* HomeViewController.swift */,
+				6E47E51F26859E6B00094A54 /* CartViewController.swift */,
+				6E47E52226859E7A00094A54 /* LocationViewController.swift */,
+				6E46AEAB268436BE00C55408 /* ProfileViewController.swift */,
+				6EB64A15268BCD2B007F3847 /* PizzaDetailViewController.swift */,
+				6EE0CA8626841F48009FA77F /* Main.storyboard */,
+				6EE0CA8926841F4A009FA77F /* Assets.xcassets */,
+				6EE0CA8B26841F4A009FA77F /* LaunchScreen.storyboard */,
+				6EE0CA8026841F48009FA77F /* AppDelegate.swift */,
+				6EE0CA8226841F48009FA77F /* SceneDelegate.swift */,
+				6EE0CA8E26841F4A009FA77F /* Info.plist */,
+				6E46AE9A2684298E00C55408 /* GoogleService-Info.plist */,
+			);
+			path = PizzApp;
+			sourceTree = "<group>";
+		};
+		6EE19D47268D09C7009374E2 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6EE19D48268D09E6009374E2 /* OrdersListTableViewCell */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		6EE19D48268D09E6009374E2 /* OrdersListTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6EE19D49268D0A33009374E2 /* OrdersListTableViewCell.swift */,
+				6EE19D4A268D0A33009374E2 /* OrdersListTableViewCell.xib */,
+			);
+			path = OrdersListTableViewCell;
+			sourceTree = "<group>";
+		};
+		6EF0183B2685C41100140185 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6ED4DB22268655F7004C2F1D /* OnboardingSlide.swift */,
+				6E2718CD268A957D003B893D /* PopularPizza.swift */,
+				6E1AF90B268ADA0900CC3E4D /* SpecialPizza.swift */,
+				6E1AF914268AE47F00CC3E4D /* Pizza.swift */,
+				6EE19D4F268D12FA009374E2 /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6EF0183C2685C41800140185 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6EF0183D2685C45A00140185 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6EF0183D2685C45A00140185 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				6EF0183E2685C49500140185 /* OnboardingViewController.swift */,
+				6ED4DB2526865D9E004C2F1D /* OnboardingCollectionViewCell.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		9F1DC46DB2CA44C70F88BA13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D50236201FF86DFFF3BAF7B2 /* Pods-PizzApp.debug.xcconfig */,
+				442C78CCEBB3D6964BFEB491 /* Pods-PizzApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EE0CA7C26841F48009FA77F /* PizzApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE0CA9126841F4A009FA77F /* Build configuration list for PBXNativeTarget "PizzApp" */;
+			buildPhases = (
+				A3621C710AD157F4C1574492 /* [CP] Check Pods Manifest.lock */,
+				6EE0CA7926841F48009FA77F /* Sources */,
+				6EE0CA7A26841F48009FA77F /* Frameworks */,
+				6EE0CA7B26841F48009FA77F /* Resources */,
+				BF6AA2F882AFA4842DE0CD47 /* [CP] Embed Pods Frameworks */,
+				497187689BCF5F0DB1B04D8D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PizzApp;
+			productName = PizzApp;
+			productReference = 6EE0CA7D26841F48009FA77F /* PizzApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EE0CA7526841F48009FA77F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6EE0CA7C26841F48009FA77F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 6EE0CA7826841F48009FA77F /* Build configuration list for PBXProject "PizzApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EE0CA7426841F48009FA77F;
+			productRefGroup = 6EE0CA7E26841F48009FA77F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EE0CA7C26841F48009FA77F /* PizzApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EE0CA7B26841F48009FA77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE0CA8D26841F4A009FA77F /* LaunchScreen.storyboard in Resources */,
+				6E46AE9B2684298E00C55408 /* GoogleService-Info.plist in Resources */,
+				6EE19D4C268D0A33009374E2 /* OrdersListTableViewCell.xib in Resources */,
+				6E1AF908268AD9C600CC3E4D /* SpecialsCollectionViewCell.xib in Resources */,
+				6E1AF912268AE3B800CC3E4D /* AllCollectionViewCell.xib in Resources */,
+				6EE0CA8A26841F4A009FA77F /* Assets.xcassets in Resources */,
+				6E2718CB268A818B003B893D /* PopularCollectionViewCell.xib in Resources */,
+				6EE0CA8826841F48009FA77F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		497187689BCF5F0DB1B04D8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PizzApp/Pods-PizzApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PizzApp/Pods-PizzApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PizzApp/Pods-PizzApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3621C710AD157F4C1574492 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PizzApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF6AA2F882AFA4842DE0CD47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PizzApp/Pods-PizzApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PizzApp/Pods-PizzApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PizzApp/Pods-PizzApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EE0CA7926841F48009FA77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E47E52326859E7A00094A54 /* LocationViewController.swift in Sources */,
+				6E47E51D26859E5900094A54 /* HomeViewController.swift in Sources */,
+				6E1AF915268AE47F00CC3E4D /* Pizza.swift in Sources */,
+				6E1AF907268AD9C600CC3E4D /* SpecialsCollectionViewCell.swift in Sources */,
+				6EE19D50268D12FA009374E2 /* Order.swift in Sources */,
+				6EE0CA8526841F48009FA77F /* AuthViewController.swift in Sources */,
+				6EF0183F2685C49500140185 /* OnboardingViewController.swift in Sources */,
+				6E2718CA268A818B003B893D /* PopularCollectionViewCell.swift in Sources */,
+				6EE0CA8126841F48009FA77F /* AppDelegate.swift in Sources */,
+				6EB64A19268BCE87007F3847 /* UIViewController+Extension.swift in Sources */,
+				6EE19D4B268D0A33009374E2 /* OrdersListTableViewCell.swift in Sources */,
+				6E46AEAC268436BE00C55408 /* ProfileViewController.swift in Sources */,
+				6E2718CE268A957D003B893D /* PopularPizza.swift in Sources */,
+				6EB64A16268BCD2B007F3847 /* PizzaDetailViewController.swift in Sources */,
+				6E1AF911268AE3B800CC3E4D /* AllCollectionViewCell.swift in Sources */,
+				6E47E52026859E6B00094A54 /* CartViewController.swift in Sources */,
+				6ED4DB2626865D9E004C2F1D /* OnboardingCollectionViewCell.swift in Sources */,
+				6ED4DB23268655F7004C2F1D /* OnboardingSlide.swift in Sources */,
+				6E1AF90C268ADA0A00CC3E4D /* SpecialPizza.swift in Sources */,
+				6E2718F1268A9793003B893D /* String+Extension.swift in Sources */,
+				6E2718F6268AAC98003B893D /* CardView.swift in Sources */,
+				6EE0CA8326841F48009FA77F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EE0CA8626841F48009FA77F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE0CA8726841F48009FA77F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EE0CA8B26841F4A009FA77F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE0CA8C26841F4A009FA77F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EE0CA8F26841F4A009FA77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EE0CA9026841F4A009FA77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EE0CA9226841F4A009FA77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D50236201FF86DFFF3BAF7B2 /* Pods-PizzApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5D32R9NM7;
+				INFOPLIST_FILE = PizzApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arturoivanchavezgomez.PizzApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EE0CA9326841F4A009FA77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 442C78CCEBB3D6964BFEB491 /* Pods-PizzApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5D32R9NM7;
+				INFOPLIST_FILE = PizzApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arturoivanchavezgomez.PizzApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EE0CA7826841F48009FA77F /* Build configuration list for PBXProject "PizzApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE0CA8F26841F4A009FA77F /* Debug */,
+				6EE0CA9026841F4A009FA77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EE0CA9126841F4A009FA77F /* Build configuration list for PBXNativeTarget "PizzApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE0CA9226841F4A009FA77F /* Debug */,
+				6EE0CA9326841F4A009FA77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EE0CA7526841F48009FA77F /* Project object */;
+}
